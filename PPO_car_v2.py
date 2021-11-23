@@ -54,7 +54,7 @@ class ActorCritic(nn.Module):
                 nn.ReLU(),  
                 nn.Conv2d(16, 32, 3, stride=2),
                 nn.ReLU(),  
-                nn.Conv2d(32, 64, 3, stride=2),)
+                nn.Conv2d(32, 64, 3, stride=2),
                 nn.ReLU(),  
                 nn.Conv2d(64, 128, 3, stride=1),
                 nn.ReLU(),  
